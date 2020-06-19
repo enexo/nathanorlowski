@@ -39,7 +39,7 @@
     <div id="fourPoints" class="row">
         <div class="col text-center">
             <i class="fab fa-js-square fa-4x" style="color: yellow"></i>
-            <h3>JavaScript</h3>
+            <h3 class="flashy">JavaScript</h3>
         </div>
         <div class="col text-center">
             <i class="fab fa-node-js fa-4x" style="color: greenyellow"></i>
@@ -65,10 +65,10 @@
     </div>
     <div class="row">
         <div class="col text-center">
-            <button class="btn btn-primary" onclick=" window.open('mailto:nathan@nathanorlowski.com','_blank')"><i class="far fa-envelope fa-2x"></i></button>
-            <button class="btn btn-primary" onclick=" window.open('https://www.linkedin.com/in/nathan-orlowski-9098343a/','_blank')"><i class="fab fa-linkedin-in fa-2x"></i></button>
-            <button class="btn btn-primary" onclick=" window.open('https://github.com/enexo','_blank')"><i class="fab fa-github fa-2x"></i></button>
-            <button class="btn btn-primary" onclick=" window.open('public/resume/NathanOrlowski.pdf','_blank')">Resume</button>
+            <button class="btn btn-primary connect" onclick=" window.open('mailto:nathan@nathanorlowski.com','_blank')"><i class="far fa-envelope fa-2x"></i></button>
+            <button class="btn btn-primary connect" onclick=" window.open('https://www.linkedin.com/in/nathan-orlowski-9098343a/','_blank')"><i class="fab fa-linkedin-in fa-2x"></i></button>
+            <button class="btn btn-primary connect" onclick=" window.open('https://github.com/enexo','_blank')"><i class="fab fa-github fa-2x"></i></button><br>
+            <button class="btn btn-primary mt-3" onclick=" window.open('public/resume/NathanOrlowski.pdf','_blank')">Resume</button>
         </div>
     </div>
 </div>
@@ -77,24 +77,34 @@
             <div class="col-lg-5">
                 <h1>Titan SaaS</h1>
                 <h6>NodeJS Proof of Concept for the IT Asset Management Industry</h6>
-                <button class="btn btn-primary" onclick=" window.open('#','_blank')">Website</button>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>MySQL</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <button class="btn btn-primary" onclick=" window.open('http://titansaas.net/','_blank')">Website</button>
                 <button class="btn btn-primary" onclick=" window.open('https://github.com/enexo/titansaas','_blank')">GitHub</button>
             </div>
             <div class="col-lg-7">
-                <img src="public/img/banner-2.png" alt="laptop" class="img-fluid">
+                <img src="public/img/titansaas.png" alt="laptop" class="img-fluid">
             </div>
         </div>
     </div>
     <div id="discovery" class="container">
         <div class="row">
             <div class="col-lg-7">
-                <img src="public/img/banner-4.png" alt="dashboard" class="img-fluid">
+                <img src="public/img/coffeeNooks.png" alt="dashboard" class="img-fluid">
             </div>
             <div class="col-lg-5">
-                <h1>React JS</h1>
-                <h6>A React.js Project</h6>
-                <button class="btn btn-success" onclick=" window.open('#','_blank')">Website</button>
-                <button class="btn btn-success" onclick=" window.open('#','_blank')">GitHub</button>
+                <h1>Coffee Nooks</h1>
+                <h6>A React.js Project utilizing the Yelp API with the Google Maps API. I was responsible for the front end look and design.</h6>
+                <ul>
+                    <li>ReactJS</li>
+                    <li>Bulma</li>
+                    <li>Photoshop</li>
+                </ul>
+                <button class="btn btn-success" onclick=" window.open('http://coffeenooks.com/','_blank')">Website</button>
+                <button class="btn btn-success" onclick=" window.open('https://github.com/enexo/coffee-nooks','_blank')">GitHub</button>
             </div>
         </div>
     </div>
@@ -103,6 +113,11 @@
             <div class="col-lg-5">
                 <h1>SleevePatches.com</h1>
                 <h6>A library of shoulder sleeve insignias worn by the United States Army</h6>
+                <ul>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>Photoshop</li>
+                </ul>
                 <button class="btn btn-info" onclick=" window.open('http://sleevepatches.com','_blank')">Website</button>
                 <button class="btn btn-info" onclick=" window.open('https://github.com/enexo/sleeve-patch','_blank')">GitHub</button>
             </div>
@@ -111,10 +126,10 @@
             </div>
         </div>
     </div>
-<div id="lastTagline" class="container-fluid">
+<div id="callToAction" class="container">
         <div class="row">
             <div class="col text-center">
-                <a href="mailto:nathan@nathanorlowski.com" class="callToActionLink">Email me <i class="fas fa-long-arrow-alt-right"></i></a>
+                <button class="btn btn-primary connect" onclick=" window.open('mailto:nathan@nathanorlowski.com','_blank')"><i class="far fa-envelope fa-2x"> Email Me</i></button>
             </div>
         </div>
     </div>
@@ -137,6 +152,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0446b00968.js" crossorigin="anonymous"></script>
+    <script src="public/js/script.js"></script>
 </footer>
 </body>
 </html>
