@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00f1c28e-d469-4357-b25c-55e0a84ab5f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/titansaas.png" beforeDir="false" />
-    </list>
+    <list default="true" id="00f1c28e-d469-4357-b25c-55e0a84ab5f1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +69,7 @@
       <workItem from="1592576852170" duration="593000" />
       <workItem from="1592605692107" duration="79000" />
       <workItem from="1593008003040" duration="496000" />
+      <workItem from="1593018857829" duration="188000" />
     </task>
     <servers />
   </component>
